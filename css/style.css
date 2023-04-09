@@ -1,0 +1,35 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+#mywebsite{
+
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+#landing{
+
+    background-image: url(../img/landing-img.jpg);
+    background-size: cover;
+    height: 90vh;
+    color: white;
+}
+
+#landing h1{
+    font-size: 45px;
+    position: relative;
+}
+
+#landing p{
+
+    font-size: 20px;
+    position: relative;
+}
+
+#landing h1,p{
+     text-align: center;
+     top: 250px;
+}
