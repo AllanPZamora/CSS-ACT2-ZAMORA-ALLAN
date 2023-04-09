@@ -116,3 +116,35 @@ a{
 a:hover{
     color: red;
 }
+
+#services{
+    background-color: whitesmoke;
+    padding-top: 100px;
+    padding-bottom: 90px;
+    text-align: center;
+}
+
+ul{
+    display: flex;
+    list-style-type: none;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+li{
+    margin: 20px;
+    display: block;
+    padding-left: auto;
+    padding-right: auto;
+    width:200px;
+    background-color: white;
+    padding-bottom: 20px;
+    padding-top: 20px;
+
+}
+li:nth-child(1){
+    background-color: orangered;
+
+}
+li:hover{
+    box-shadow: 0px 0px 15px 1px rgb(193, 193, 193);
+}
